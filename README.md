@@ -70,21 +70,21 @@ This AWS lambda function were published also to serve as examples in creating a 
 - [imageprocessing\TI-ImageChalk](imageprocessing/TI-ImageChalk)
 
 ### notification of upload to bucket
--[async\TI-SlackAlert](async\TI-SlackAlert) - `PostAuthentication_Authentication`
--[async\TI-SlackAlert](async\TI-SlackAlert) - `PreSignUp_SignUp`
--[async\TI-SlackAlert](async\TI-SlackAlert) - `PostConfirmation_ConfirmSignUp`
+- [async\TI-SlackAlert](async/TI-SlackAlert)  
 
 ## Cognito
 
 ### Notification
--[async\TI-SlackAlert](async\TI-SlackAlert)  
+- [async\TI-SlackAlert](async/TI-SlackAlert) - `PostAuthentication_Authentication`
+- [async\TI-SlackAlert](async/TI-SlackAlert) - `PreSignUp_SignUp`
+- [async\TI-SlackAlert](async/TI-SlackAlert) - `PostConfirmation_ConfirmSignUp`
 
 ## Various
 
 ### Image Processing
 - [imageprocessing\TI-ImageChalk](imageprocessing/TI-ImageChalk) - resize
 - [imageprocessing\TI-ImageChalk](imageprocessing/TI-ImageChalk) - apply filters
-- [imageprocessing\TI-ImageChalk](imageprocessing/TI-ImageChalk) - pad to fit a given image ratio - userful for Facebook preview which requires 1.91:1 ratio
+- [imageprocessing\TI-ImageChalk](imageprocessing/TI-ImageChalk) - pad to fit a given image ratio - userful for Facebook preview which requires 1:1.91 ratio
 
 ### UUID generator
 - [api\TI-AUser-DonationPost](api/TI-AUser-DonationPost)
