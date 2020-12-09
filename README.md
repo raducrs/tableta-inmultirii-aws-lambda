@@ -40,8 +40,8 @@ This AWS lambda function were published also to serve as examples in creating a 
 - [api\TI-Stats-GadgetsGet](api/TI-Stats-GadgetsGet) 
 
 ### stream event
--[async\TI-SlackAlert](async/TI-SlackAlert) - INSERT
--[async\TI-SlackAlert](async/TI-SlackAlert) - MODIFY
+- [async\TI-SlackAlert](async/TI-SlackAlert) - INSERT
+- [async\TI-SlackAlert](async/TI-SlackAlert) - MODIFY
 
 ## Lambda
 
